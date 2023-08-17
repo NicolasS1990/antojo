@@ -1,0 +1,24 @@
+button{
+    background: none;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-primary {
+    background: #208181;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button-primary:hover {
+    background: #1a6666;
+    transform: translate(-1px, -1px);
+}
+.button-primary:active {
+    background: #208181;
+    transform: translate(1px, 1px);
+}
